@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зин</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script src="scripts/main.js" defer></script>
+    <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body class="book-page">
+    <div class="book-container">
+        <div class="header-nav">
+            <div class="navigation" id="mainNav">
+        <button class="burger-btn" id="burgerToggle" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+                <div class="nav-block">
+                    <a href="index.html">Главная</a>
+                </div>
+                <div class="nav-block">
+                    <a href="info.html">О нас</a>
+                </div>
+                <div class="nav-block">
+                    <a href="shop.html">Магазин</a>
+                </div>
+                <div class="nav-block">
+                    <a href="gallery.html">Галерея</a>
+                </div>
+                <div class="nav-block active">
+                    <a href="book.html">Зин</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="book-hero">
+            <div class="horizontal-lines book-row">
+                <img src="assets/images/book.png" class="book-cover">
+                <div class="book-info">
+                    <div class="book-description">
+                        <h1>Кинетик</h1>
+                        <p>Зин о том, как коктейли стали не просто напитками,<br> а частью культуры. Здесь — несколько фактов из истории, немного о традициях и о том, как менялось восприятие коктейля: от практичного смешивания до настоящего барного искусства.</p>
+                    </div>
+                    <a href="#bottom">
+                        <button class="view-btn">Просмотр</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="book-viewer">
+            <div class="horizontal-lines">
+                <div id="bottom" class="viewer-container">
+                    <div>
+                        <img id="bookImage" src="assets/images/book1.png" class="viewer-image">
+                    </div>
+                    <div class="viewer-controls">
+                        <button id="prevBtn" class="control-btn"><img src="assets/images/left.svg"></button>
+                        <button id="nextBtn" class="control-btn"><img src="assets/images/right.svg"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <span>Саблина Мария БРИЦП251</span>
+            <span>paradise vibe</span>
+        </footer>
+    </div>
+</body>
+</html>

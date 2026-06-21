@@ -1,0 +1,19 @@
+@keyframes colorFadeIn {
+    from {
+        background-color: transparent;
+        color: black;
+    }
+    to {
+        background-color: #FF054C;
+        color: white;
+    }
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

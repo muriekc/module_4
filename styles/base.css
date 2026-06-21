@@ -3,3 +3,543 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden;
+    background-color: #FFF9F9;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    background-color: #FFF9F9;
+    border-radius: 25px;
+}
+
+.nav-block {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 37px;
+    display: flex;
+    padding: 10px 37px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.active {
+    animation: colorFadeIn 0.3s ease forwards;
+}
+
+.horizontal-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.vertical-line {
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 100%;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'MyFont';
+    font-weight: 700;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(../assets/images/Union2.svg);
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.hero-title {
+    justify-content: start;
+}
+
+.main-title {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 300px;
+    line-height: 0.66;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.hero-text {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 25px;
+    width: 700px;
+}
+
+.register-box {
+    background: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-family: 'MyFont';
+    font-weight: 700;
+}
+
+.register-box h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.field {
+    margin-bottom: 18px;
+}
+
+.field label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.field input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 12px;
+    background: #FF054C;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-register:hover {
+    background: #FF054C;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #FF054C;
+    text-decoration: none;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    padding: 50px 0;
+    background-image: url(../assets/images/union4.svg);
+    background-size: cover;
+}
+
+.info-row {
+    justify-content: space-between;
+}
+
+.info-title {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 190px;
+    color: #000000;
+    opacity: 70%;
+}
+
+.info-text {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 23px;
+    width: 600px;
+    padding: 20px;
+}
+
+.gallery-page {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 20px 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gallery-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(../assets/images/union4.svg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.track {
+    display: flex;
+    gap: 200px;
+    animation: scrollLeft 10s linear infinite;
+    width: max-content;
+}
+
+.image {
+    width: 400px;
+    height: 585px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 400px;
+    height: 585px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(../assets/images/Union.svg);
+    background-size: cover;
+}
+
+.error-number {
+    font-size: 490px;
+    line-height: 0.72;
+    font-family: 'MyFont';
+    font-weight: 700;
+    margin-bottom: -13px;
+}
+
+.error-message {
+    background-color: black;
+    border-radius: 39px;
+    padding: 8px 23px;
+    margin-left: 50px;
+}
+
+.error-message p {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 54px;
+    color: white;
+}
+
+.left-line {
+    left: 339px;
+}
+
+.right-line {
+    left: 611px;
+}
+
+.book-page {
+    background-image: url(../assets/images/Union2.svg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.book-hero {
+    display: flex;
+}
+
+.book-row {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 167px;
+    align-items: start;
+}
+
+.book-cover {
+    width: 381px;
+    height: 537px;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+
+.book-description {
+    background-color: white;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+    width: 650px;
+}
+
+.book-description h1 {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.book-description p {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.view-btn {
+    width: fit-content;
+    padding: 8px 15px;
+    font-size: 20px;
+    background-color: #FF054C;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'MyFont';
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.book-line {
+    left: 167px;
+    margin-top: 96px;
+    height: 1800px;
+    overflow: hidden;
+}
+
+.book-viewer {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.viewer-image {
+    width: 537px;
+    height: 379px;
+}
+
+.viewer-controls {
+    display: flex;
+    gap: 50px;
+}
+
+.control-btn {
+    width: 40px;
+    height: 40px;
+}
+
+.shop-page {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 20px;
+    background-image: url(../assets/images/Union3.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.shop-title {
+    font-family: 'MyFont';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.shop-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    max-width: 1530px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-item {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'MyFont';
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    width: 350px;
+    height: 400px;
+    background-color: black;
+    border-radius: 14px;
+    border: solid 20px black;
+}
+
+.card img {
+    width: 310px;
+    height: 319px;
+    border-radius: 16px;
+}
+
+.card-info {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buy {
+    background-color: #FF054C;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.footer {
+    background: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'MyFont';
+    font-weight: 700;
+}
+
+.burger-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 34px;
+    height: 28px;
+    background: transparent;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 1001;
+    order: 10;
+    margin-left: auto;
+}
+
+.burger-btn span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.burger-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+    background: #FF054C;
+}
+
+.burger-btn.active span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.burger-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+    background: #FF054C;
+}

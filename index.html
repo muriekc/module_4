@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>Paradise</title>
+    <link rel="stylesheet" href="styles/style.css"/>
     <script src="scripts/main.js" defer></script>
+    <link rel="icon" type="image/png" href="favicon.ico">
 </head>
-<body>   
+<body>
+    <div class="header-nav">
+        <div class="navigation" id="mainNav">
+            <button class="burger-btn" id="burgerToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-block active">
+                <a href="index.html">Главная</a>
+            </div>
+            <div class="nav-block">
+                <a href="info.html">О нас</a>
+            </div>
+            <div class="nav-block">
+                <a href="shop.html">Магазин</a>
+            </div>
+            <div class="nav-block">
+                <a href="gallery.html">Галерея</a>
+            </div>
+            <div class="nav-block">
+                <a href="book.html">Зин</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="horizontal-lines hero-title">
+            <p class="main-title">paradise</p>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">Paradise  — это не просто коктейли. Это красивое<br>и вкусное пространство, где каждая девушка чувствует себя желанной, расслабленной<br>и особенной. Место, где подруги становятся ближе,<br> а вечер превращается в маленький праздник.</div>
+            <div class="register-box">
+                <h2>Регистрация</h2>
+                <form>
+                    <div class="field">
+                        <label>Имя пользователя</label>
+                        <input type="text" placeholder="Введите имя">
+                    </div>
+                    <div class="field">
+                        <label>Email</label>
+                        <input placeholder="example@mail.ru">
+                    </div>
+                    <div class="field">
+                        <label>Пароль</label>
+                        <input type="password" placeholder="Введите пароль">
+                    </div>
+                    <div class="field">
+                        <label>Подтверждение пароля</label>
+                        <input type="password" placeholder="Повторите пароль">
+                    </div>
+                    <a href="error.html">
+                        <button class="btn-register">Зарегистрироваться</button>
+                    </a>
+                </form>
+                <div class="login-link">
+                    Уже есть аккаунт? <a href="error.html">Войти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <span>Саблина Мария БРИЦП251</span>
+        <span>paradise vibe</span>
+    </footer>
 </body>
 </html>

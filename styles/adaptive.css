@@ -1,0 +1,586 @@
+@media (max-width: 1024px) {
+    .header-nav {
+        padding: 15px 30px;
+    }
+
+    .navigation {
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .nav-block {
+        font-size: 28px;
+        padding: 8px 25px;
+    }
+
+    .main-title {
+        font-size: 200px;
+    }
+
+    .hero-content {
+        padding: 20px 30px;
+        gap: 30px;
+    }
+
+    .hero-text {
+        font-size: 20px;
+        width: 500px;
+    }
+
+    .register-box {
+        max-width: 350px;
+        padding: 30px;
+    }
+
+    .info-title {
+        font-size: 130px;
+    }
+
+    .info-text {
+        font-size: 20px;
+        width: 450px;
+    }
+
+    .info-section {
+        gap: 130px;
+    }
+
+    .book-row {
+        padding: 0 80px;
+    }
+
+    .book-description {
+        width: 500px;
+    }
+
+    .book-cover {
+        width: 300px;
+        height: auto;
+    }
+
+    .viewer-container {
+        width: 700px;
+        height: 420px;
+    }
+
+    .viewer-image {
+        width: 420px;
+        height: 300px;
+    }
+
+    .gallery-item {
+        width: 300px;
+        height: 440px;
+    }
+
+    .image {
+        width: 300px;
+        height: 440px;
+    }
+
+    .track {
+        gap: 100px;
+    }
+
+    .shop-grid {
+        gap: 60px;
+    }
+
+    .card {
+        width: 280px;
+        height: 340px;
+    }
+
+    .card img {
+        width: 240px;
+        height: 250px;
+    }
+
+    .shop-page {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .error-number {
+        font-size: 350px;
+    }
+
+    .left-line {
+        left: 200px;
+    }
+
+    .right-line {
+        left: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        padding: 12px 16px;
+    }
+
+    .navigation {
+        width: 100%;
+        border-radius: 20px;
+        padding: 4px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-block {
+        font-size: 20px;
+        padding: 6px 16px;
+        white-space: nowrap;
+    }
+
+    .main-title {
+        font-size: 130px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .register-box {
+        max-width: 100%;
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .info-title {
+        font-size: 80px;
+    }
+
+    .info-text {
+        font-size: 17px;
+        width: 100%;
+        max-width: 400px;
+        padding: 10px 0;
+    }
+
+    .info-section {
+        gap: 80px;
+        padding: 30px 0;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    .book-row {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .book-cover {
+        width: 250px;
+        height: auto;
+    }
+
+    .book-description {
+        width: 100%;
+        max-width: 450px;
+        padding: 20px;
+    }
+
+    .book-description h1 {
+        font-size: 32px;
+    }
+
+    .book-description p {
+        font-size: 17px;
+    }
+
+    .book-info {
+        align-items: center;
+        width: 100%;
+    }
+
+    .book-container {
+        gap: 60px;
+    }
+
+    .book-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-viewer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .viewer-container {
+        width: 95%;
+        max-width: 550px;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .viewer-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 537/379;
+    }
+
+    .gallery-page {
+        height: auto;
+        min-height: 100vh;
+        gap: 40px;
+    }
+
+    .gallery-hero {
+        gap: 30px;
+    }
+
+    .gallery-item {
+        width: 200px;
+        height: 290px;
+    }
+
+    .image {
+        width: 200px;
+        height: 290px;
+    }
+
+    .track {
+        gap: 60px;
+    }
+
+    .container {
+        padding: 30px 0;
+    }
+
+    .gallery {
+        gap: 20px;
+    }
+
+    .shop-page {
+        height: auto;
+        min-height: 100vh;
+        padding: 15px;
+        gap: 40px;
+    }
+
+    .shop-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .shop-grid {
+        gap: 40px;
+    }
+
+    .card {
+        width: 240px;
+        height: 300px;
+        border-width: 15px;
+    }
+
+    .card img {
+        width: 210px;
+        height: 220px;
+    }
+
+    .card-info {
+        font-size: 17px;
+    }
+
+    .buy {
+        font-size: 17px;
+        padding: 6px 12px;
+    }
+
+    .error-number {
+        font-size: 220px;
+    }
+
+    .error-message p {
+        font-size: 36px;
+    }
+
+    .error-message {
+        padding: 6px 18px;
+        margin-left: 20px;
+    }
+
+    .left-line,
+    .right-line {
+        display: none;
+    }
+
+    .footer {
+        padding: 15px 20px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-nav {
+        padding: 8px 12px;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .navigation {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding: 10px 14px;
+        border-radius: 20px;
+        background-color: #FFF9F9;
+        gap: 0;
+        transition: all 0.3s ease;
+    }
+
+    .burger-btn {
+        display: flex !important;
+    }
+
+    .nav-block {
+        display: none;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 16px;
+        border-radius: 15px;
+        text-align: center;
+        white-space: normal;
+        flex-shrink: 0;
+        order: 0;
+        transition: all 0.3s ease;
+    }
+
+    .nav-block.active {
+        display: block;
+        background-color: #FF054C;
+        color: white;
+        animation: none;
+    }
+
+    .navigation.open {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+        background: #FFF9F9;
+        border-radius: 20px;
+        padding: 16px 14px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        justify-content: flex-start;
+        border: 2px solid #000;
+    }
+
+    .navigation.open .nav-block {
+        display: block;
+        animation: slideDown 0.3s ease forwards;
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    .navigation.open .nav-block:nth-child(2) { animation-delay: 0.05s; }
+    .navigation.open .nav-block:nth-child(3) { animation-delay: 0.1s; }
+    .navigation.open .nav-block:nth-child(4) { animation-delay: 0.15s; }
+    .navigation.open .nav-block:nth-child(5) { animation-delay: 0.2s; }
+    .navigation.open .nav-block:nth-child(6) { animation-delay: 0.25s; }
+
+    .navigation.open .nav-block.active {
+        background-color: #FF054C;
+        color: white;
+        animation-delay: 0s;
+    }
+
+    .navigation.open .burger-btn {
+        align-self: flex-end;
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-15px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .main-title {
+        font-size: 80px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .hero-section {
+        gap: 25px;
+        padding: 20px 0;
+    }
+
+    .register-box h2 {
+        font-size: 20px;
+    }
+
+    .register-box {
+        padding: 20px 16px;
+    }
+
+    .field input {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .btn-register {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .info-title {
+        font-size: 50px;
+    }
+
+    .info-text {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .info-section {
+        gap: 50px;
+        padding: 20px 0;
+    }
+
+    .book-description {
+        padding: 16px;
+    }
+
+    .book-description h1 {
+        font-size: 26px;
+    }
+
+    .book-description p {
+        font-size: 15px;
+    }
+
+    .book-cover {
+        width: 180px;
+    }
+
+    .view-btn {
+        font-size: 17px;
+        padding: 6px 20px;
+    }
+
+    .viewer-container {
+        padding: 12px;
+        border-radius: 16px;
+    }
+
+    .viewer-controls {
+        gap: 20px;
+    }
+
+    .control-btn {
+        width: 34px;
+        height: 34px;
+    }
+
+    .gallery-item {
+        width: 150px;
+        height: 220px;
+    }
+
+    .image {
+        width: 150px;
+        height: 220px;
+    }
+
+    .track {
+        gap: 30px;
+    }
+
+    .container {
+        padding: 20px 0;
+    }
+
+    .gallery {
+        gap: 12px;
+    }
+
+    .shop-title {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 180px;
+        height: 240px;
+        border-width: 10px;
+        gap: 10px;
+    }
+
+    .card img {
+        width: 160px;
+        height: 170px;
+    }
+
+    .card-info {
+        font-size: 14px;
+    }
+
+    .shop-item {
+        gap: 10px;
+    }
+
+    .buy {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .shop-grid {
+        gap: 25px;
+    }
+
+    .error-number {
+        font-size: 150px;
+    }
+
+    .error-message p {
+        font-size: 28px;
+    }
+
+    .error-message {
+        margin-left: 0;
+        padding: 4px 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 12px 16px;
+        flex-direction: column;
+        text-align: center;
+        gap: 4px;
+    }
+
+    .book-line {
+        display: none;
+    }
+}
